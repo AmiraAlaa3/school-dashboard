@@ -31,8 +31,7 @@ export default function ModalNews() {
                 <label className='w-100' htmlFor="new-img">
                   <p className='mb-2'>Add image</p>
                     <div className={`${styles.upload} mt-1 border rounded-1 d-flex align-items-center justify-content-between`}>
-                         <p className='mb-0 p-2'>{newImg ? newImg : 'Upload picture'}</p>
-                         
+                          <p className='mb-2 p-2'>{newImg ? newImg : 'Upload picture'}</p>
                          <div className={`w-25 p-2 ${styles.uploadBtn}`}><i className="fa-solid mx-2 fa-upload"></i>Upload</div>
                     </div>
                 </label>

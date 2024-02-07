@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import BasicDatePicker from '../Buttons/AddDate';
 import ModalButtons from '../Buttons/ModalButtons';
 import styles from './Modal.module.css';
+import MyDatePicker from '../Buttons/AddDate';
 export default function ModalEvent() {
   const [eventImg, setEventImg] = useState(null);
 
@@ -40,7 +41,8 @@ export default function ModalEvent() {
             </div>
              <div className="mb-3">
                <label htmlFor="event-Date" className="col-form-label">Add Date</label>
-                <BasicDatePicker/>   
+                <BasicDatePicker/> 
+               
              </div>
            </form>
          </div>
